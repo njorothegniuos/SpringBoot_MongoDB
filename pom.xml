@@ -70,7 +70,7 @@
 		      <groupId>com.spotify</groupId>
 		      <artifactId>docker-maven-plugin</artifactId>
 		      <configuration>
-		        <imageName>personMongoDB</imageName>
+		        <imageName>personmongodb</imageName>
 		        <baseImage>java:8</baseImage>
 		        <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint> 
 		        <resources>
@@ -80,7 +80,7 @@
 		             <include>${project.build.finalName}.jar</include>
 		           </resource>
 		        </resources>
-		        <finalName>person_MongoDB</finalName>
+		        <finalName>person_mongodb</finalName>
 		      </configuration>
 		    </plugin>
 			<plugin>
